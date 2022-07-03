@@ -30,6 +30,7 @@
 - git remote -v (_lista os repositorios remotos cadastrados_)
 - git push origin master (_empurra os arquivos para o repositório remoto_)
 - git pull origin master (_baixa os arquivos do repositorio remoto_)
+- git clone link do repositorio (_clonar o repositorio do github_)
 
 ### Passo-a-passo:
 
@@ -51,8 +52,10 @@
 ### Para lembrar:
 
 - Criar a pasta dos proximos modulos na pasta resumo-aulas (_mkdir modulo-02_)
--seguir o mesmo processo para adicionar arquivo de resumo-aulas.md 
+- Seguir o mesmo processo para adicionar arquivo de resumo-aulas.md 
 
+- Para clonar repositorios remotos basta abrir o git bash na pasta local onde você gostaria de clonar os arquivos, copiar o link do repositorio no git hub e fazer um clone atraves do codigo: 
 
+_git clone link do repositorio_
 
 
