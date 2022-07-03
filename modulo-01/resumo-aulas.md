@@ -29,6 +29,7 @@
 - git remote add origin git@github.com:lorenzoantico/resumo-aulas.git(_adicionar repositorio remoto_)
 - git remote -v (_lista os repositorios remotos cadastrados_)
 - git push origin master (_empurra os arquivos para o repositório remoto_)
+- git pull origin master (_baixa os arquivos do repositorio remoto_)
 
 ### Passo-a-passo:
 
