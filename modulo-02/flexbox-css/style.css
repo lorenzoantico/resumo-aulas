@@ -1,0 +1,56 @@
+.cabeçalho{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo{
+    border: 1px solid black;
+}
+
+.imagem{
+    width: 150px;
+    height: 150px;
+}
+
+.menu{
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.item{
+    background-color: aqua;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.main{
+    padding: 10px;
+    border: 2px solid black;
+    margin: 5px;
+    max-width: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.conteudo-main{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 10px;
+    background-color: white;
+}
+
+.lateral{
+    padding: 10px;
+    background-color: white;
+}
