@@ -34,6 +34,7 @@ function(stop){
   let button = document.querySelector("#somar");
   button.disabled = false;
   input.addEventListener("change", stateHandle);
+  
   function stateHandle() {
     if (document.querySelector("currentNumber").value === "10") {
       button.disabled = true; 

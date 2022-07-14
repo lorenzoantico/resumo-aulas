@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(172, 172, 172);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+h1{
+    font-size: 50px;
+    margin: 50px;
+    color: rgb(40, 47, 53);
+}
+
+
+button {
+    border: 1px solid rgb(22, 22, 22);
+    border-radius: 5px;
+    background-color: rgb(235, 235, 235);
+    color: rgb(22, 22, 22);
+    text-align: center;
+    padding: 5px;
+  }
+
+button:hover{
+    background-color: rgb(190, 190, 190);
+}
+  
+  input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+  }
+  
+  #tasks {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  :checked + label {
+    text-decoration: line-through;
+    color: grey;
+  }
